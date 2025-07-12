@@ -8,5 +8,9 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/ReactRouter/', 
+  base: '/ReactRouter/',
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+  }
 })
